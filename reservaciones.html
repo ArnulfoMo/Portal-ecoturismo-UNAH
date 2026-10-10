@@ -32,12 +32,13 @@
                 turísticos de Honduras.
             </p>
 
-            <form id="formReservacion">
+            <form action="#" method="post" enctype="multipart/form-data">
 
                 <h3>Datos del Viajero</h3>
 
                 <label for="nombre">Nombre completo:</label>
-                <input type="text" id="nombre" name="nombre" minlength="5" maxlength="100" required>
+                <input type="text" id="nombre" name="nombre" minlength="5" maxlength="100"
+                    placeholder="Ingrese su nombre completo" required>
 
                 <label for="telefono">Numero telefonico:</label>
                 <input type="tel" id="telefono" name="telefono" placeholder="+50412345678" pattern="\+?[0-9]{8,15}"
