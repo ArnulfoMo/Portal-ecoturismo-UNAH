@@ -66,6 +66,17 @@ article a:hover {
     text-decoration: underline;
 }
 
+section a {
+    color: #c47a2c;
+    text-decoration: none;
+}
+
+section a:hover {
+    color: #96591f;
+    text-decoration: underline;
+}
+
+
 footer {
     background-color: #244b3a;
     color: white;
